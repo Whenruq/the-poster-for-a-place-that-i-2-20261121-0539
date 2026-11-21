@@ -16,6 +16,7 @@ picture is the place's name, set large over the sky.
 `main.ts` hands the poster in: it copies `entry.png` to
 `/output/entry.png` (honoring `MAKEFUN_OUTPUT_DIR` outside the grader).
 The poster is 1024×1024 and under 1 MiB, and the copy is byte-for-byte,
-so every run hands in the identical picture.
+so every run hands in the identical picture — no randomness, no
+network, nothing to drift.
 
 More at [make.fun](https://make.fun/bounty/the-poster-for-a-place-that-i-2-20261121-0539).
